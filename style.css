@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dokdo', cursive;
+  }
+
+.pads {
+    /* background: lightblue; */
+    width: 100%;
+    display: flex;
+  }
+  .pads > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+  }
+
+#pad1 {
+    background: rgb(185, 128, 250);
+}
+
+#pad2 {
+    /*  */
+}
+
+.labels {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  text-align: center;
+  font-size: 3em;
+  background: rgb(185, 128, 250);
+  
+}
+
+
+header {
+  content: '';
+  width: 100%;
+  height: 300px;
+}
